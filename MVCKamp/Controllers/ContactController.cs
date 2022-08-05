@@ -20,5 +20,17 @@ namespace MVCKamp.Controllers
             var contactValues = cm.GetList();
             return View(contactValues);
         }
+
+        public ActionResult ContactDetails(int id)
+        {
+            var contactValues = cm.GetByID(id);
+            return View(contactValues);
+        }
+
+
+        public PartialViewResult MessageListMenu()
+        {
+            return PartialView();
+        }
     }
 }

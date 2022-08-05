@@ -64,6 +64,7 @@
     <Compile Include="Abstract\IContactServices.cs" />
     <Compile Include="Abstract\IContentServices.cs" />
     <Compile Include="Abstract\IHeadingServices.cs" />
+    <Compile Include="Abstract\IMessageServices.cs" />
     <Compile Include="Abstract\IWriterServices.cs" />
     <Compile Include="Abstract\ICategoryServices.cs" />
     <Compile Include="Concrate\AboutManager.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Concrate\ContactManager.cs" />
     <Compile Include="Concrate\ContentManager.cs" />
     <Compile Include="Concrate\HeadingManager.cs" />
+    <Compile Include="Concrate\MessageManager.cs" />
     <Compile Include="Concrate\WriterManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidationRules\ContactValidator.cs" />
